@@ -1,0 +1,34 @@
+# =============================
+# Banking77 Fine-Tuning Project
+# Author: Sinon Lobo
+# Date: October 2025
+# =============================
+
+# Core NLP and Model Libraries
+transformers==4.38.2       # Hugging Face Transformers for DistilBERT and LoRA fine-tuning
+torch==2.0.1               # PyTorch for model training and inference
+peft==0.10.0               # Parameter-Efficient Fine-Tuning (LoRA integration)
+datasets==2.18.0           # Hugging Face Datasets for loading and preprocessing Banking77
+
+# Evaluation and Machine Learning Utilities
+scikit-learn==1.2.2        # Metrics, label encoding, train-test split
+evaluate==0.4.1            # For computing accuracy, F1, and other metrics
+
+# Data Handling and Visualization
+pandas==1.5.3              # Data manipulation and inspection
+numpy==1.24.3              # Numerical operations for preprocessing
+matplotlib==3.7.1          # Visualization of metrics and training progress
+seaborn==0.12.2            # Confusion matrix and heatmaps
+
+# Deployment / Inference
+gradio==4.31.0             # Interactive web interface for real-time inference demo
+
+# Utilities
+tqdm==4.66.1               # Progress bars during training
+accelerate==0.30.0         # Multi-GPU or MPS acceleration support
+huggingface_hub==0.23.1    # Model and dataset access from Hugging Face Hub
+sentencepiece==0.2.0       # Tokenizer backend support for various models
+
+# Optional (for notebooks or Colab)
+ipython==8.15.0            # Interactive environment support
+notebook==7.0.4            # Running and visualizing Jupyter notebooks
