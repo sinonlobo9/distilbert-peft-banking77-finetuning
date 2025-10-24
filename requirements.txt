@@ -1,9 +1,3 @@
-# =============================
-# Banking77 Fine-Tuning Project
-# Author: Sinon Lobo
-# Date: October 2025
-# =============================
-
 # Core NLP and Model Libraries
 transformers==4.38.2       # Hugging Face Transformers for DistilBERT and LoRA fine-tuning
 torch==2.0.1               # PyTorch for model training and inference
